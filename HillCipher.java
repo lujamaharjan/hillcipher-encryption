@@ -30,8 +30,8 @@ public class HillCipher{
            
            int temp2 = msgNum[i] * key[0][1] + msgNum[i+1] * key[1][1];
            eText += (char) ((temp2 % 26) + 65);
-   
         }
+        
         System.out.println("Encrypted Text:" + eText);
     }
     public static void main(String[] args){
